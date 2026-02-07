@@ -12,6 +12,7 @@ public class Main {
             System.out.println("3.Exit");
             n = scanner.nextInt();
             if(n==1){
+                scanner.nextLine();
                 System.out.println("Enter Your Name:");
                 String name = scanner.nextLine();
                 System.out.println("Enter Your Roll-no:");
